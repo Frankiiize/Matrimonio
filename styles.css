@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* --------------------------------<HEADER>------------------------------- */
+.header_container{
+    width: 100%;
+    min-height: 200px;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+
+}
+.header_container-cta{
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 10px;
+    padding: 1rem;
+}
+.header_container-cta  h4{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.header_container-cta p{
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.header_container-cta p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header_container-tittle{
+    width: 100%;
+    min-height: 50px;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.header_container-tittle h1{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.header_container-tittle p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header_container-button{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #00a099;
+    background-color: #00a099;
+    border-radius: 5px;
+    min-height: 2.5rem;
+}
+
+.header_container-button button{
+    border: 0;
+    outline: none;
+    font-size: 1.6rem;
+    background-color: transparent;
+    color:white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* --------------------------------</HEADER>------------------------------- */
