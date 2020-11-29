@@ -78,3 +78,8 @@ html{
     padding-bottom: 0.5rem;
 }
 /* --------------------------------</HEADER>------------------------------- */
+.chat_container{
+    width: 50%;
+    margin: 0 auto;
+
+}
