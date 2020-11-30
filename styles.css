@@ -1,3 +1,15 @@
+:root{
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secundary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --black:#282623;
+    --grey:#BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#fff;
+    --warn-black1: #282623;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,52 +20,62 @@ html{
 }
 /* --------------------------------<HEADER>------------------------------- */
 .header_container{
+    position: relative;
     width: 100%;
-    min-height: 200px;
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-
+    min-width: 320px;
+    max-width: 900px;
+    height: 200px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 10px;
+    
 }
 .header_container-cta{
     width: 90%;
+    min-width: 288px;
+    max-width: 900px;
     margin: 0 auto;
-    text-align: right;
     margin-top: 10px;
-    padding: 1rem;
+    margin-bottom: 10px;
 }
 .header_container-cta  h4{
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0.5rem;
-    margin-bottom: 0.3rem;
-}
-.header_container-cta p{
     width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.header_container-bank{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
 }
 .header_container-cta p span{
     font-weight: bold;
     text-transform: uppercase;
 }
 .header_container-tittle{
-    width: 100%;
+    width: 90%;
     min-height: 50px;
     font-size: 1.6rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0 auto;
 }
 .header_container-tittle h1{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .header_container-tittle p{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -61,10 +83,12 @@ html{
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid #00a099;
-    background-color: #00a099;
+    /* border: 1px solid #00a099; */
+    background-color:var(--bitcoin-orange);
     border-radius: 5px;
-    min-height: 2.5rem;
+    /* min-height: 2.5rem; */
+    max-width: 320px;
+    min-width: 288px;
 }
 
 .header_container-button button{
@@ -76,10 +100,24 @@ html{
     text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+   
 }
 /* --------------------------------</HEADER>------------------------------- */
+/* --------------------------------<WHASAPP>------------------------------- */
 .chat_container{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-
+    
 }
+
+.Window__Component-sc-17wvysh-0{
+    border: 1px solid blueviolet;
+    position: absolute;
+    
+}
+.Window__WindowComponent-sc-17wvysh-1{
+    min-width: 320px !important ;
+    width: 320px !important;
+    
+}
+/* --------------------------------</WHASAPP>------------------------------- */
