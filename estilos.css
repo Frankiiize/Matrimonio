@@ -20,12 +20,14 @@ html{
 }
 /* --------------------------------<HEADER>------------------------------- */
 .header_container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 150px;
+    margin: 0 auto;
      position: relative;
      display: flex;
      flex-direction: column;
-     width: 100%;
-     min-width: 320px;
-     height: 150px;
      text-align: center;
 }
 .header_container-cta{
@@ -90,6 +92,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 .chat_container{
     width: 90%;
@@ -99,16 +102,93 @@ html{
     justify-content: center;
     
 }
-.Window__Component-sc-17wvysh-0{
-    
-    
-}
+
 .Window__WindowComponent-sc-17wvysh-1{
-    min-width: 320px !important ;
+    min-width: 300px !important ;
     width: 320px !important;
-    left: -86px;
+    left: -89.9px;
     margin-top: 45px;
-    
+}
+#eapps-whatsapp-chat-248a75b0-7177-4992-a406-58799e0a7dfd > div > div.Window__WindowComponent-sc-17wvysh-1.jmOKNn > div:nth-child(5){
+    display: none !important;
+}
+.eapps-widget-toolbar{
+    display: none;
 }
 
 /* --------------------------------</ASISTENCIA>------------------------------- */
+/* --------------------------------<TimeDATE>------------------------------- */
+.timeDate_container{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    min-height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--warm-black);
+    
+}
+.timeDate_container-title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.timeDate_container-title h3{
+    font-size: 2.2rem;
+    color: var(--bitcoin-orange);
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+}
+.timeDate_container-title p{
+    font-size: 1.5rem;
+    color: var(--soft-orange);
+}
+.timeDate_description{
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timeDate_description p{
+    font-size: 1.6rem;
+    color: var(--off-white);
+    line-height: 2rem;
+    font-weight: normal;
+}
+
+/* --------------------------------</TimeDATE>------------------------------- */
+/* --------------------------------</googleMaps>------------------------------- */
+.googleMaps_container{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.googleMaps_container-map{
+    width: 90%;
+    min-width: 288px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/* --------------------------------</googleMaps>------------------------------- */
