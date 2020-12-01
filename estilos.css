@@ -18,33 +18,41 @@
 html{
     font-size: 62.5%;
 }
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sansita Swashed', cursive;
+}
 /* --------------------------------<HEADER>------------------------------- */
 .header_container{
     width: 100%;
     min-width: 320px;
     max-width: 900px;
-    height: 150px;
+    height: auto;
     margin: 0 auto;
      position: relative;
      display: flex;
      flex-direction: column;
      text-align: center;
+     
+     
 }
 .header_container-cta{
-    width: 90%;
+    width: 100%;
     min-width: 288px;
     max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    color: var(--just-white);
+    background-color: var(--warm-black);
+
+    
 }
 .header_container-cta h4{
     font-size: 1.4rem;
-    font-weight: normal;  
+    font-weight: normal; 
+    color:var(--bitcoin-orange); 
 }
 .header_container-bank{
     width: 90%;
@@ -57,7 +65,7 @@ html{
     font-size: 1.3rem;
 }
 .header_container-bank p span{
-    font-weight: bold ;
+    font-weight: normal;
 }
 .header_container-tittle{
     width: 90%;
@@ -70,17 +78,35 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .header_container-tittle h1{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
 }
 .header_container-tittle p{
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 /* --------------------------------</HEADER>------------------------------- */
+/* --------------------------------</HERO>------------------------------- */
+.Hero_container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--off-white);
+}
+.Hero-img{
+    width: 90%;
+    min-width: 288px;
+}
+
+/* --------------------------------</HERO>------------------------------- */
 /* --------------------------------<ASISTENCIA>------------------------------- */
 .asistencia_container{
     position: relative;
@@ -101,6 +127,11 @@ html{
     display: flex;
     justify-content: center;
     
+} 
+/* ----------chatwhasapp----------- */
+.eapps-widget-toolbar {
+    left:-70px !important;
+    display: none !important;      
 }
 
 .Window__WindowComponent-sc-17wvysh-1{
@@ -110,11 +141,12 @@ html{
     left: -89.9px !important;
     margin-top: 45px;
 }
-#eapps-whatsapp-chat-248a75b0-7177-4992-a406-58799e0a7dfd > div > div.Window__WindowComponent-sc-17wvysh-1.jmOKNn > div:nth-child(5){
-    display: none !important;
+.Close__Component-sc-1l05yq5-0{
+    border: 2px solid var(--just-white);
+    border-radius: 50%;
 }
-.eapps-widget-toolbar{
-    display: none;
+#eapps-whatsapp-chat-248a75b0-7177-4992-a406-58799e0a7dfd > div > div.Window__WindowComponent-sc-17wvysh-1.gBiRuo > div:nth-child(5){
+    display: none !important;
 }
 
 /* --------------------------------</ASISTENCIA>------------------------------- */
@@ -126,7 +158,7 @@ html{
     max-width: 900px;
     min-height: 150px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: -40px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -183,6 +215,7 @@ html{
     height: auto;
     margin: 0 auto;
     margin-top: 10px;
+    background-color: var(--off-white);
 }
 .googleMaps_container-map{
     width: 90%;
