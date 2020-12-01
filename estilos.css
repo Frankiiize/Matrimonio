@@ -27,11 +27,7 @@ body{
     width: 100%;
     min-width: 320px;
     max-width: 900px;
-<<<<<<< HEAD
     height: auto;
-=======
-    height: 150px;
->>>>>>> 11fa1dc31deac85411d7cda2d05d7be98a1513d7
     margin: 0 auto;
      position: relative;
      display: flex;
@@ -141,7 +137,6 @@ body{
 .Window__WindowComponent-sc-17wvysh-1{
     min-width: 300px !important ;
     width: 320px !important;
-<<<<<<< HEAD
     max-width: 900px !important;
     left: -89.9px !important;
     margin-top: 45px;
@@ -152,16 +147,6 @@ body{
 }
 #eapps-whatsapp-chat-248a75b0-7177-4992-a406-58799e0a7dfd > div > div.Window__WindowComponent-sc-17wvysh-1.gBiRuo > div:nth-child(5){
     display: none !important;
-=======
-    left: -89.9px;
-    margin-top: 45px;
-}
-#eapps-whatsapp-chat-248a75b0-7177-4992-a406-58799e0a7dfd > div > div.Window__WindowComponent-sc-17wvysh-1.jmOKNn > div:nth-child(5){
-    display: none !important;
-}
-.eapps-widget-toolbar{
-    display: none;
->>>>>>> 11fa1dc31deac85411d7cda2d05d7be98a1513d7
 }
 
 /* --------------------------------</ASISTENCIA>------------------------------- */
@@ -173,11 +158,7 @@ body{
     max-width: 900px;
     min-height: 150px;
     margin: 0 auto;
-<<<<<<< HEAD
     margin-top: -40px;
-=======
-    margin-top: 10px;
->>>>>>> 11fa1dc31deac85411d7cda2d05d7be98a1513d7
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -234,10 +215,7 @@ body{
     height: auto;
     margin: 0 auto;
     margin-top: 10px;
-<<<<<<< HEAD
     background-color: var(--off-white);
-=======
->>>>>>> 11fa1dc31deac85411d7cda2d05d7be98a1513d7
 }
 .googleMaps_container-map{
     width: 90%;
