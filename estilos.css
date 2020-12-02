@@ -75,7 +75,13 @@ body{
 .header_container-bank p span{
     font-weight: normal;
 }
-.header_container-tittle{
+.title_container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    background-color: var(--off-white);
+}
+.title_container-tittle{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -89,13 +95,13 @@ body{
     background-color: var(--off-white);
     
 }
-.header_container-tittle h1{
+.title_container-tittle h1{
     text-align: center;
     font-size: 3.55rem;
     margin-bottom: 5px;
     font-family: 'Dancing Script', cursive;
 }
-.header_container-tittle p{
+.title_container-tittle p{
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.04rem;
