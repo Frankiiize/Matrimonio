@@ -27,14 +27,20 @@ body{
     width: 100%;
     min-width: 320px;
     max-width: 900px;
-    height: auto;
+    height: 60px;
     margin: 0 auto;
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-     
-     
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 2.5px;
+    border-bottom-right-radius: 2.5px;
+    background-color: var(--warm-black);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.66);
+         
 }
 .header_container-cta{
     width: 100%;
@@ -45,7 +51,6 @@ body{
     align-items: center;
     margin-bottom: 20px;
     color: var(--just-white);
-    background-color: var(--warm-black);
 
     
 }
@@ -53,6 +58,7 @@ body{
     font-size: 1.4rem;
     font-weight: normal; 
     color:var(--bitcoin-orange); 
+    letter-spacing: 0.07rem;
 }
 .header_container-bank{
     width: 90%;
@@ -60,9 +66,11 @@ body{
     max-width: 320px;
     margin: 0 auto;
     text-align: right;
+    
 }
 .header_container-bank p{
     font-size: 1.3rem;
+    letter-spacing: 0.06rem;
 }
 .header_container-bank p span{
     font-weight: normal;
@@ -78,17 +86,19 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--off-white);
     
 }
 .header_container-tittle h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.55rem;
     margin-bottom: 5px;
     font-family: 'Dancing Script', cursive;
 }
 .header_container-tittle p{
     font-size: 1.5rem;
     font-weight: bold;
+    letter-spacing: 0.04rem;
     
 }
 /* --------------------------------</HEADER>------------------------------- */
@@ -119,6 +129,7 @@ body{
     align-items: center;
     justify-content: center;
     z-index: 1;
+    background-color: var(--off-white);
 }
 .chat_container{
     width: 90%;
@@ -136,9 +147,9 @@ body{
 
 .Window__WindowComponent-sc-17wvysh-1{
     min-width: 300px !important ;
-    width: 320px !important;
+    width: 300px !important;
     max-width: 900px !important;
-    left: -89.9px !important;
+    left: -79.9px !important;
     margin-top: 45px;
 }
 .Close__Component-sc-1l05yq5-0{
@@ -158,13 +169,16 @@ body{
     max-width: 900px;
     min-height: 150px;
     margin: 0 auto;
-    margin-top: -40px;
+    margin-top: -35px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--warm-black);
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+    border-radius: 2.5px;
     
 }
 .timeDate_container-title{
@@ -180,12 +194,14 @@ body{
 }
 .timeDate_container-title h3{
     font-size: 2.2rem;
+    letter-spacing: 0.2rem;
     color: var(--bitcoin-orange);
     line-height: 1.5rem;
     margin-bottom: 5px;
 }
 .timeDate_container-title p{
     font-size: 1.5rem;
+    letter-spacing: 0.5rem;
     color: var(--soft-orange);
 }
 .timeDate_description{
@@ -203,6 +219,7 @@ body{
     color: var(--off-white);
     line-height: 2rem;
     font-weight: normal;
+    letter-spacing: 0.04rem;
 }
 
 /* --------------------------------</TimeDATE>------------------------------- */
@@ -224,5 +241,9 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    background-color: var(--off-white);
+}
+.googleMaps_container-map iframe{
+    border-radius: 10px;
 }
 /* --------------------------------</googleMaps>------------------------------- */
