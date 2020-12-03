@@ -254,3 +254,74 @@ body{
     border-radius: 10px;
 }
 /* --------------------------------</googleMaps>------------------------------- */
+/* --------------------------------</footer>------------------------------- */
+.footer_container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    min-height: 100px;
+    margin-top: 20px;
+    background-color: var(--warm-black);
+    color: var(--off-white);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.footer-description{
+    width: 80%;
+    min-width: 288px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.footer-description p{
+    font-size: 1.6rem;
+    letter-spacing: 0.09rem;
+}
+.footer-rs{
+    width: 80%;
+    min-width: 288px;
+    max-width: 500px;
+    min-height: 143px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer-rs span{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2rem;
+    margin-bottom: 5.5px;
+    letter-spacing: 0.06rem;
+}
+.footer-rs .facebook{
+    background-image: url(./assets/rs2/facelogo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin: 0;
+}
+.footer-rs .instagram{
+    background-image: url(./assets/rs2/instalogo3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    align-items:flex-start;
+}
+
+.rs-gloria{
+    margin-bottom: 10px;
+}
+
+/* --------------------------------</footer>------------------------------- */
